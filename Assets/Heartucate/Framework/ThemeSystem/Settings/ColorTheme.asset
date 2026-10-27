@@ -1,0 +1,1000 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d01db8f46627614cb6169c22016fc8d, type: 3}
+  m_Name: ColorTheme
+  m_EditorClassIdentifier: 
+  colorGroups:
+  - _name: Transparent
+    _guid: c8869ec8-f2f5-4222-a5ce-799365cd7717
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - _name: White
+    _guid: ba907b2a-77e2-43a8-b276-3821054153b2
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - _name: Gray
+    _guid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+    color: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  - _name: Action
+    _guid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+    color: {r: 0, g: 0.17254902, b: 0.3137255, a: 1}
+  - _name: Action / Background Dark (looks like Action 25% Alpha)
+    _guid: ee2c21b1-e1a8-4638-93c3-d3ca0416b5e7
+    color: {r: 0, g: 0.17254902, b: 0.3137255, a: 1}
+  - _name: Alert
+    _guid: 2ad2c893-5a0e-499d-82bc-321d0f0bb0df
+    color: {r: 0.43343925, g: 0, b: 1, a: 1}
+  - _name: Background Dark
+    _guid: 18b2cea1-b813-4ffe-8ed5-ef5d5fbb769c
+    color: {r: 0, g: 0, b: 0.050980393, a: 1}
+  - _name: Background Bright
+    _guid: 4abb874a-9644-4275-a5ab-9acb417704d7
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - _name: Background Bright 2
+    _guid: 3e67a6fe-0352-4d40-9f19-55086f0d0485
+    color: {r: 0.915, g: 0.9716667, b: 1, a: 1}
+  - _name: Success on Dark
+    _guid: 2f896995-6c40-4b34-8f65-816d691a0958
+    color: {r: 0.06274511, g: 0.8232496, b: 0.98039216, a: 1}
+  - _name: Success on Bright
+    _guid: 93a4e11a-3a7a-46ff-bfc3-92a90190bb6f
+    color: {r: 0.0627451, g: 0.8235294, b: 0.98039216, a: 1}
+  - _name: Black
+    _guid: 98f35991-352e-4589-845e-a75fa2cbfe79
+    color: {r: 0, g: 0, b: 0, a: 1}
+  gradientGroups:
+  - _name: Action
+    _guid: d11360fe-80a3-4358-b676-c651d58ba984
+    color1: {r: 0.18431373, g: 0.2392157, b: 0.37254903, a: 1}
+    color2: {r: 0.37915978, g: 0.4762215, b: 0.690566, a: 1}
+  - _name: Alert
+    _guid: 7d1d04db-5c9f-4e90-a1cf-263a367c05ec
+    color1: {r: 0.6363329, g: 0.28627452, b: 0.9607843, a: 1}
+    color2: {r: 0.22268629, g: 0, b: 1, a: 1}
+  - _name: Gray on Dark
+    _guid: 9cef2814-48fe-46a8-b836-afbc12a23474
+    color1: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 0.29803923}
+    color2: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 0.29803923}
+  - _name: Gray on Bright
+    _guid: 16019d61-8eb6-46ac-801d-5a4c606580f0
+    color1: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 1}
+    color2: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
+  - _name: Success
+    _guid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+    color1: {r: 0.0627451, g: 0.8235294, b: 0.98039216, a: 1}
+    color2: {r: 0.06274511, g: 0.6499061, b: 0.98039216, a: 1}
+  textGroups:
+  - _name: Heading 1
+    _guid: 600e8a81-ec3d-47f2-b8e6-1fecf8543e40
+    fontAsset: {fileID: 11400000, guid: 48ca2540d09a39648bc8593327a486a5, type: 2}
+    fontSize: 100
+  - _name: Heading 2
+    _guid: 7b5725b0-2f26-435b-94e9-a90126c7753a
+    fontAsset: {fileID: 11400000, guid: 48ca2540d09a39648bc8593327a486a5, type: 2}
+    fontSize: 80
+  - _name: Paragraph
+    _guid: 00077738-58f4-4fed-a636-ce9bc7e80e4c
+    fontAsset: {fileID: 11400000, guid: 9069956e9a5026c47b8c13fc625977e3, type: 2}
+    fontSize: 48
+  - _name: Button
+    _guid: 004a8402-a3c5-4273-9678-c3ac9fd7fb91
+    fontAsset: {fileID: 11400000, guid: 48ca2540d09a39648bc8593327a486a5, type: 2}
+    fontSize: 48
+  - _name: Button Paragraph
+    _guid: fcb4ae68-dd96-4636-b46f-6a16884a77bc
+    fontAsset: {fileID: 11400000, guid: 9069956e9a5026c47b8c13fc625977e3, type: 2}
+    fontSize: 30
+  - _name: Ticket Heading
+    _guid: 9153c82e-9342-49bd-b899-bb91186bf105
+    fontAsset: {fileID: 11400000, guid: 9069956e9a5026c47b8c13fc625977e3, type: 2}
+    fontSize: 36
+  - _name: Ticket Paragraph Bold
+    _guid: 793bbaa9-8c42-4941-b76a-97472b8f2d31
+    fontAsset: {fileID: 11400000, guid: 9069956e9a5026c47b8c13fc625977e3, type: 2}
+    fontSize: 36
+  - _name: Ticket Paragraph
+    _guid: 0f094db8-8084-4556-a0fc-077504133455
+    fontAsset: {fileID: 11400000, guid: 9069956e9a5026c47b8c13fc625977e3, type: 2}
+    fontSize: 36
+  - _name: License Input
+    _guid: 0d6dc38d-6746-4d4d-b95e-7904a9defd4e
+    fontAsset: {fileID: 11400000, guid: 9069956e9a5026c47b8c13fc625977e3, type: 2}
+    fontSize: 70
+  - _name: Main Quest
+    _guid: dc743fb4-adfa-4e8b-9325-7cae0d57d6e9
+    fontAsset: {fileID: 11400000, guid: 48ca2540d09a39648bc8593327a486a5, type: 2}
+    fontSize: 39
+  - _name: Side Quest
+    _guid: e94c6aae-be3d-44a5-8222-9d3b85400f94
+    fontAsset: {fileID: 11400000, guid: 9069956e9a5026c47b8c13fc625977e3, type: 2}
+    fontSize: 39
+  - _name: PC-Text
+    _guid: f32da590-37e8-4ebd-98a3-ece509d4491a
+    fontAsset: {fileID: 11400000, guid: 9069956e9a5026c47b8c13fc625977e3, type: 2}
+    fontSize: 33
+  selectableGroups:
+  - _name: Alert
+    _guid: da15ef79-2e43-4aec-8454-87a850bedfd8
+    colors:
+      defaultColors:
+        primaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 7d1d04db-5c9f-4e90-a1cf-263a367c05ec
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+      pressColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: 2ad2c893-5a0e-499d-82bc-321d0f0bb0df
+          gradientGuid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+      selectedColors:
+        primaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 7d1d04db-5c9f-4e90-a1cf-263a367c05ec
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+      disabledColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 0.5
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+  - _name: Hidden
+    _guid: 330af468-5dc0-4c53-b14b-b12260f43220
+    colors:
+      defaultColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: c8869ec8-f2f5-4222-a5ce-799365cd7717
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+      pressColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 2f896995-6c40-4b34-8f65-816d691a0958
+          gradientGuid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+      selectedColors:
+        primaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+      disabledColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 0.5
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+  - _name: Action Transparent
+    _guid: 4b981dcb-f64d-4d19-b95b-5c2cc1f96e06
+    colors:
+      defaultColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: c8869ec8-f2f5-4222-a5ce-799365cd7717
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+      pressColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 2f896995-6c40-4b34-8f65-816d691a0958
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+      selectedColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: c8869ec8-f2f5-4222-a5ce-799365cd7717
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+      disabledColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 0.5
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+  - _name: Alert Transparent
+    _guid: 521cbde9-9945-4b6e-9ad6-01653335e3d6
+    colors:
+      defaultColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: c8869ec8-f2f5-4222-a5ce-799365cd7717
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 2ad2c893-5a0e-499d-82bc-321d0f0bb0df
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+      pressColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 2f896995-6c40-4b34-8f65-816d691a0958
+          gradientGuid: 7d1d04db-5c9f-4e90-a1cf-263a367c05ec
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+      selectedColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: c8869ec8-f2f5-4222-a5ce-799365cd7717
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 2ad2c893-5a0e-499d-82bc-321d0f0bb0df
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+      disabledColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 0.5
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+  - _name: Grayed Out
+    _guid: fa01ea3e-5cd4-4a7b-bbd2-834ea6a7f15b
+    colors:
+      defaultColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 
+          gradientGuid: 16019d61-8eb6-46ac-801d-5a4c606580f0
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+      pressColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 2f896995-6c40-4b34-8f65-816d691a0958
+          gradientGuid: 7d1d04db-5c9f-4e90-a1cf-263a367c05ec
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+      selectedColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 
+          gradientGuid: 16019d61-8eb6-46ac-801d-5a4c606580f0
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+      disabledColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 0.5
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 
+          alpha: 1
+  - _name: Action but keep Selection
+    _guid: 82b124ed-9ef2-49e1-a98c-f620fad0722c
+    colors:
+      defaultColors:
+        primaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+      pressColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 2f896995-6c40-4b34-8f65-816d691a0958
+          gradientGuid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 93a4e11a-3a7a-46ff-bfc3-92a90190bb6f
+          gradientGuid: 
+          alpha: 1
+      selectedColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 2f896995-6c40-4b34-8f65-816d691a0958
+          gradientGuid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 93a4e11a-3a7a-46ff-bfc3-92a90190bb6f
+          gradientGuid: 
+          alpha: 1
+      disabledColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 0.5
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 
+          alpha: 1
+  - _name: Checkbox on Dark
+    _guid: 24bfb0a5-0d41-4d01-a1e3-56f3bb6e43e4
+    colors:
+      defaultColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+          alpha: 1
+        secondaryColor:
+          colorStyle: 2
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+          alpha: 1
+      pressColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+          alpha: 1
+        secondaryColor:
+          colorStyle: 2
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+          alpha: 1
+      selectedColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+          alpha: 1
+        secondaryColor:
+          colorStyle: 2
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+          alpha: 1
+      disabledColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: 18b2cea1-b813-4ffe-8ed5-ef5d5fbb769c
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: c8869ec8-f2f5-4222-a5ce-799365cd7717
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: 
+          alpha: 1
+  - _name: Success
+    _guid: ca2fc4cf-8f27-4dc3-a52a-d286e8bd86b0
+    colors:
+      defaultColors:
+        primaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 93a4e11a-3a7a-46ff-bfc3-92a90190bb6f
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+      pressColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 93a4e11a-3a7a-46ff-bfc3-92a90190bb6f
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+      selectedColors:
+        primaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 93a4e11a-3a7a-46ff-bfc3-92a90190bb6f
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+      disabledColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 4abb874a-9644-4275-a5ab-9acb417704d7
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 
+          alpha: 1
+  - _name: Discreet
+    _guid: 046abe5b-0043-49a1-98d7-99edc295eeb4
+    colors:
+      defaultColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: c8869ec8-f2f5-4222-a5ce-799365cd7717
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+      pressColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: c8869ec8-f2f5-4222-a5ce-799365cd7717
+          gradientGuid: 7d1d04db-5c9f-4e90-a1cf-263a367c05ec
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+      selectedColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: c8869ec8-f2f5-4222-a5ce-799365cd7717
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+      disabledColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 4abb874a-9644-4275-a5ab-9acb417704d7
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 
+          alpha: 1
+  - _name: Discreet White
+    _guid: e71f98e0-dbcb-48a6-bba5-6e6834ed31ce
+    colors:
+      defaultColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: c8869ec8-f2f5-4222-a5ce-799365cd7717
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+      pressColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: c8869ec8-f2f5-4222-a5ce-799365cd7717
+          gradientGuid: 7d1d04db-5c9f-4e90-a1cf-263a367c05ec
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+      selectedColors:
+        primaryColor:
+          colorStyle: 1
+          colorGuid: c8869ec8-f2f5-4222-a5ce-799365cd7717
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+      disabledColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 4abb874a-9644-4275-a5ab-9acb417704d7
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 
+          alpha: 1
+  - _name: Action
+    _guid: 48d6f0ee-1fe2-407e-8f95-9c46f405577f
+    colors:
+      defaultColors:
+        primaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+      pressColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 2f896995-6c40-4b34-8f65-816d691a0958
+          gradientGuid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 93a4e11a-3a7a-46ff-bfc3-92a90190bb6f
+          gradientGuid: 
+          alpha: 1
+      selectedColors:
+        primaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: 
+          alpha: 1
+      disabledColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 4abb874a-9644-4275-a5ab-9acb417704d7
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 
+          alpha: 1
+  - _name: Action 2
+    _guid: 8c2ab34e-44e4-4e2e-a83e-537c0705ff40
+    colors:
+      defaultColors:
+        primaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 0.6
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+      pressColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 2f896995-6c40-4b34-8f65-816d691a0958
+          gradientGuid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 93a4e11a-3a7a-46ff-bfc3-92a90190bb6f
+          gradientGuid: 
+          alpha: 1
+      selectedColors:
+        primaryColor:
+          colorStyle: 0
+          colorGuid: 
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 0.6
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+      disabledColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 4abb874a-9644-4275-a5ab-9acb417704d7
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 
+          alpha: 1
+  - _name: Action Unselected
+    _guid: cb74db42-0333-43a7-a4a2-d36c54022a60
+    colors:
+      defaultColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 0.1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+      pressColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 2f896995-6c40-4b34-8f65-816d691a0958
+          gradientGuid: 41ea1266-e0f6-4bb3-a857-db518eed5702
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: ba907b2a-77e2-43a8-b276-3821054153b2
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 93a4e11a-3a7a-46ff-bfc3-92a90190bb6f
+          gradientGuid: 
+          alpha: 1
+      selectedColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 0.1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: 
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 64bb9be4-a9a1-4655-aa60-7e27dc52326a
+          gradientGuid: d11360fe-80a3-4358-b676-c651d58ba984
+          alpha: 1
+      disabledColors:
+        primaryColor:
+          colorStyle: 2
+          colorGuid: 4abb874a-9644-4275-a5ab-9acb417704d7
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        secondaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 9cef2814-48fe-46a8-b836-afbc12a23474
+          alpha: 1
+        tertiaryColor:
+          colorStyle: 1
+          colorGuid: 771eadee-e1d4-4316-a1fa-d0d970cd3ff6
+          gradientGuid: 
+          alpha: 1
+  defaultColorStyle: 2
+  defaultGradientAngle: -90
+  defaultBorderStyle: 2
+  defaultBorderSprite: {fileID: 21300000, guid: 6d991c7d49529e44a8cf17de94348641,
+    type: 3}
+  defaultBorderMultiplier: 4.5
+  defaultInnerBorderMultiplier: 0.276

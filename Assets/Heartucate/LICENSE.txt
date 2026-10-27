@@ -1,0 +1,66 @@
+HEARTUCATE FRAMEWORK RESTRICTED LICENSE
+
+Copyright (c) 2026 Heartucate GmbH
+
+All rights reserved.
+
+
+1. Scope of License
+
+Permission is hereby granted to authorized users to access and use the source code contained within the directory:
+
+Assets/Heartucate/Framework
+
+solely for the purpose of maintaining, modifying, and improving the existing Heartucate project.
+
+
+2. Restrictions
+
+The following actions are strictly prohibited:
+
+Use of the source code outside of the Heartucate project
+
+Copying, distributing, or redistributing the source code in any form
+
+Selling, sublicensing, or commercially exploiting the source code
+
+Using the code in other projects, whether private or public
+
+Publishing the code or any derivative work
+
+Reverse engineering for purposes unrelated to maintaining the project
+
+
+3. Confidentiality
+
+The contents of the Heartucate/Framework directory are considered confidential and proprietary.
+
+By accessing or using this code, you agree to:
+
+Maintain strict confidentiality
+
+Not disclose any part of the code to unauthorized parties
+
+Take reasonable measures to prevent unauthorized access or distribution
+
+
+4. Ownership
+
+This license does not grant any ownership rights.
+All rights, title, and interest in the source code remain with the copyright holder.
+
+
+5. Termination
+
+This license is automatically terminated if any of the terms are violated.
+Upon termination, all copies of the source code must be immediately deleted.
+
+
+6. No Warranty
+
+The software is provided "as is", without warranty of any kind, express or implied.
+
+
+7. Agreement
+
+By using this source code, you agree to be bound by the terms of this license.
