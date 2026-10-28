@@ -132,13 +132,15 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _GridCount: 24
+    - _GridCountX: 18
+    - _GridCountZ: 24
     - _HeightScale: 0.05
     - _HoleBrightness: 5.76
     - _HoleDepth: 10
     - _HoleRadius: 0.13
     - _LOD: 0
     - _LODThreshold: 0
-    - _Metallic: 0
+    - _Metallic: 0.116
     - _NoiseScale: 500
     - _Normal: 0.0001
     - _OcclusionStrength: 1
@@ -146,7 +148,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0
+    - _Smoothness: 0.731
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

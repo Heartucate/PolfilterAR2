@@ -21,7 +21,8 @@ namespace Heartucate.TUD
         public enum Level
         {
             LEVEL1,
-            LEVEL2
+            LEVEL2,
+            Level3
         }
 
         public static Level CurrentLevel = Level.LEVEL1;

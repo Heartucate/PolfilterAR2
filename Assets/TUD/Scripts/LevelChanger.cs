@@ -201,6 +201,7 @@ namespace Heartucate.TUD
                         _polUI1.transform.localRotation = Quaternion.Euler(24f, 0f, 0f);
 
                         _popUpManager.OpenPopUp(_exp2TextSimul);
+                        
                     }
                     else
                     {
@@ -210,6 +211,7 @@ namespace Heartucate.TUD
 
                         _popUpManager.OpenPopUp(_exp2TextAR);
                     }
+                    Debug.Log(" Exp 2");
                 }
                 if (currentIndex == 1)
                 {
@@ -217,6 +219,7 @@ namespace Heartucate.TUD
                     _degAdj2.ApplyDegree();
 
                     _popUpManager.OpenPopUp(_exp1Text);
+                    Debug.Log(" Exp 1");
                 }
                 UpdateLevelDisplay();
                 UpdateButtons();
